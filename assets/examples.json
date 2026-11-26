@@ -1,0 +1,22 @@
+[
+  {
+    "id": "positive-1",
+    "label": "positive",
+    "text": "A quietly wonderful film. The performances are restrained and truthful, the photography is beautiful, and the ending stayed with me for days. It is not flashy, but every scene feels necessary. Highly recommended."
+  },
+  {
+    "id": "negative-1",
+    "label": "negative",
+    "text": "A tedious and predictable mess. The script is full of cliches, the acting is wooden, and the pacing is so slow that I almost walked out. Even the final twist cannot save it. A real disappointment."
+  },
+  {
+    "id": "positive-2",
+    "label": "positive",
+    "text": "I went in with low expectations and came out genuinely moved. The two leads have real chemistry, the dialogue is sharp, and the soundtrack fits perfectly. A smart, warm and satisfying piece of filmmaking."
+  },
+  {
+    "id": "negative-2",
+    "label": "negative",
+    "text": "The trailer promised a clever thriller, but the film delivers nothing but noise. Characters make nonsensical decisions, the plot collapses in the second half, and the ending is laughably bad. Avoid."
+  }
+]

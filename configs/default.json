@@ -1,0 +1,47 @@
+{
+  "paths": {
+    "data_dir": "data",
+    "raw_dir": "data/raw",
+    "processed_dir": "data/processed",
+    "output_dir": "outputs",
+    "checkpoint_dir": "outputs/checkpoints",
+    "figure_dir": "outputs/figures",
+    "log_dir": "outputs/logs"
+  },
+  "data": {
+    "dataset_url": "https://huggingface.co/datasets/stanfordnlp/imdb",
+    "train_url": "https://huggingface.co/datasets/stanfordnlp/imdb/resolve/main/plain_text/train-00000-of-00001.parquet",
+    "test_url": "https://huggingface.co/datasets/stanfordnlp/imdb/resolve/main/plain_text/test-00000-of-00001.parquet",
+    "max_vocab": 20000,
+    "min_freq": 3,
+    "max_len": 256,
+    "val_ratio": 0.1,
+    "num_classes": 2,
+    "num_workers": 0
+  },
+  "model": {
+    "name": "bilstm_attention",
+    "embedding_dim": 64,
+    "hidden_dim": 64,
+    "num_layers": 1,
+    "bidirectional": true,
+    "pooling": "attention",
+    "dropout": 0.5,
+    "kernel_sizes": [
+      3,
+      4,
+      5
+    ],
+    "num_filters": 100
+  },
+  "train": {
+    "batch_size": 64,
+    "epochs": 7,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "grad_clip": 1.0,
+    "patience": 2,
+    "seed": 42,
+    "device": "auto"
+  }
+}
